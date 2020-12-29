@@ -18,6 +18,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.device.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.device.rc
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += /
+    $(LOCAL_PATH)/overlay
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
