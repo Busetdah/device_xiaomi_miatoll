@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_miatoll.mk
+    $(LOCAL_DIR)/ancient_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_miatoll-user \
-    nad_miatoll-userdebug \
-    nad_miatoll-eng
+    ancient_miatoll-user \
+    ancient_miatoll-userdebug \
+    ancient_miatoll-eng
